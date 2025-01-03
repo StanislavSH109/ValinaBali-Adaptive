@@ -27,3 +27,19 @@ We managed to avoid excessive increase in selector weight (example of error).</l
   <li>The code is formatted.</li>
   <li>The layout was created using BEM.</li>
 </ul>
+<h2 align="center">Layout, UI-KIT</h2>
+<p align="center">
+  <img src="assets/ui.png" alt="ui-kit" width="600px" style="padding: 20px"/>
+</p>
+<h2 align="center">Layout, Desktop - 1440</h2>
+<p align="center">
+  <img src="assets/Desktop.png" alt="desktop-layout" width="600px" style="padding: 20px"/>
+</p>
+<h2 align="center">Layout, Tablet - 768</h2>
+<p align="center">
+  <img src="assets/Tablet.png" alt="tablet-layout" width="600px" style="padding: 20px"/>
+</p>
+<h2 align="center">Layout, Mobile - 375</h2>
+<p align="center">
+  <img src="assets/Mobile.png" alt="mobile-layout" width="600px" style="padding: 20px"/>
+</p>
