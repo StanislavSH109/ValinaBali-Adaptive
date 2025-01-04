@@ -13,6 +13,9 @@
   line-height: 18px;
   cursor: pointer;
 
+  @include vp-1439 {
+    width: 245px;
+  }
   &--bg-lilac {
     background-color: $color-deep-lilac;
     border: none;
