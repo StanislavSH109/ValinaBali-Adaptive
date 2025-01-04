@@ -1,0 +1,17 @@
+.test-block {
+    margin: 0;
+    padding: 0;
+
+    &__item {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__button {
+        border-radius: 8px;
+        padding: 10px;
+    }
+    &__button:hover {
+        color: black;
+    }
+}
