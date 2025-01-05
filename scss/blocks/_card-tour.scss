@@ -7,14 +7,13 @@
   background-color: $color-white;
   overflow: hidden;
 
+  @include vp-1439 {
+    min-height: unset;
+  }
+
   &--flat {
     .card-tour__content-bottom {
       flex-direction: row;
-    }
-
-    @include vp-1439 {
-      width: 705px;
-      min-height: unset;
     }
   }
 
@@ -88,6 +87,10 @@
 
   &__label-info--bg-violet {
     background-color: $color-white-lilac;
+  }
+
+  &__label-info--tablet {
+    display: none;
   }
 
   &__label-icon {

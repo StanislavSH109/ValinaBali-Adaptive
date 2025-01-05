@@ -9,6 +9,10 @@
   align-items: center;
   justify-content: center;
 
+  @include vp-1439 {
+    min-height: unset;
+  }
+
   &--bg-green {
     background-color: $color-foam;
   }
@@ -24,6 +28,11 @@
     flex-shrink: 0;
     margin: 0 0 20px;
     border-radius: 200px;
+
+    @include vp-1439 {
+      width: 100px;
+      height: 100px;
+    }
   }
 
   &__name {
@@ -34,6 +43,11 @@
     line-height: 32px;
     letter-spacing: -0.02em;
     margin: 0;
+
+    @include vp-1439 {
+      font-size: 24px;
+      line-height: 28px;
+    }
   }
 
   &__text {
@@ -41,6 +55,11 @@
     font-size: 20px;
     line-height: 24px;
     margin: 0 0 20px;
+
+    @include vp-1439 {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 
   &__info {
@@ -48,5 +67,10 @@
     text-align: center;
     font-size: 16px;
     line-height: 20px;
+
+    @include vp-1439 {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
 }
