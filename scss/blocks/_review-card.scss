@@ -8,6 +8,10 @@
   grid-template-columns: 1fr 100px;
   gap: 40px;
 
+  @include vp-1439 {
+    padding: 20px;
+  }
+
   &__wrap {
     display: flex;
     gap: 21px;

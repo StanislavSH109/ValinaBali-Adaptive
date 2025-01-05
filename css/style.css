@@ -452,16 +452,18 @@ a {
   background-color: #000000;
   padding: 40px 0;
 }
-@media (max-width: 1439px) {
-  .footer {
-    padding: 40px 30px;
-  }
-}
 .footer__content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 20px;
+}
+@media (max-width: 1439px) {
+  .footer__content {
+    grid-template-columns: 140px 253px 111px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 .footer__logo-link svg {
   width: 140px;
@@ -620,7 +622,6 @@ a {
 @media (max-width: 1439px) {
   .card-tour {
     min-height: unset;
-    height: unset;
   }
 }
 .card-tour--flat .card-tour__content-bottom {
@@ -734,6 +735,11 @@ a {
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+@media (max-width: 1439px) {
+  .card-tour__price-wrap {
+    gap: unset;
+  }
 }
 .card-tour__price {
   display: flex;
@@ -881,6 +887,8 @@ a {
   .best-tour-card__info {
     font-size: 14px;
     line-height: 18px;
+    width: 588px;
+    margin: 0 0 15px;
   }
 }
 
@@ -893,6 +901,11 @@ a {
   display: grid;
   grid-template-columns: 1fr 100px;
   gap: 40px;
+}
+@media (max-width: 1439px) {
+  .review-card {
+    padding: 20px;
+  }
 }
 .review-card__wrap {
   display: flex;
