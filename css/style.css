@@ -620,6 +620,7 @@ a {
 @media (max-width: 1439px) {
   .card-tour {
     min-height: unset;
+    height: unset;
   }
 }
 .card-tour--flat .card-tour__content-bottom {
@@ -773,6 +774,12 @@ a {
   letter-spacing: -0.02em;
   margin: 0 0 30px;
 }
+@media (max-width: 1439px) {
+  .best-tours__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
 .best-tours__list {
   margin: 0;
   padding: 0;
@@ -834,6 +841,7 @@ a {
   .best-tour-card__img {
     width: 100px;
     height: 100px;
+    margin: 0 0 15px;
   }
 }
 .best-tour-card__name {
