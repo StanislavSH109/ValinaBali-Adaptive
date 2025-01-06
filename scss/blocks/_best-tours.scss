@@ -1,5 +1,8 @@
 .best-tours {
   margin: 0 0 78px;
+  @include vp-1439 {
+    margin: 0 0 60px;
+  }
 
   &__title {
     font-size: 36px;

@@ -376,7 +376,7 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -609,6 +609,11 @@ a {
 .tours__item--flat {
   grid-column: span 2;
 }
+@media (max-width: 1439px) {
+  .tours__item--flat-small {
+    grid-column: 1;
+  }
+}
 
 .card-tour {
   display: flex;
@@ -772,6 +777,11 @@ a {
 
 .best-tours {
   margin: 0 0 78px;
+}
+@media (max-width: 1439px) {
+  .best-tours {
+    margin: 0 0 60px;
+  }
 }
 .best-tours__title {
   font-size: 36px;

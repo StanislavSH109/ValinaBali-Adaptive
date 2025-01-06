@@ -19,4 +19,10 @@
   &__item--flat {
     grid-column: span 2;
   }
+
+  &__item--flat-small {
+    @include vp-1439 {
+      grid-column: 1;
+    }
+  }
 }
