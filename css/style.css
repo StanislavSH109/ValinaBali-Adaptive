@@ -413,7 +413,7 @@ a {
 }
 @media (max-width: 767px) {
   .header {
-    padding: 10px 0;
+    padding: 8px 0;
   }
 }
 .header__content {
@@ -428,6 +428,7 @@ a {
 @media (max-width: 767px) {
   .header__logo-link {
     width: 111px;
+    height: 32px;
   }
 }
 @media (max-width: 767px) {
@@ -596,6 +597,12 @@ a {
   padding: 15px 0 0;
   margin: 0 0 30px 0;
 }
+@media (max-width: 767px) {
+  .breadcrumbs {
+    padding: 10px 0 0;
+    margin: 0 0 20px 0;
+  }
+}
 .breadcrumbs__list {
   display: flex;
   gap: 24px;
@@ -611,6 +618,13 @@ a {
   font-size: 14px;
   line-height: 18px;
   position: relative;
+}
+@media (max-width: 767px) {
+  .breadcrumbs__link {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+  }
 }
 .breadcrumbs__link--active {
   color: #a1a1a1;
@@ -644,6 +658,12 @@ a {
     gap: 30px 20px;
   }
 }
+@media (max-width: 767px) {
+  .tours__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .tours__item--flat {
   grid-column: span 2;
 }
@@ -669,6 +689,11 @@ a {
 }
 .card-tour--flat .card-tour__content-bottom {
   flex-direction: row;
+}
+@media (max-width: 767px) {
+  .card-tour--flat .card-tour__content-bottom {
+    flex-direction: column;
+  }
 }
 .card-tour__img {
   width: 100%;
@@ -715,6 +740,12 @@ a {
     line-height: 28px;
   }
 }
+@media (max-width: 767px) {
+  .card-tour__title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
 .card-tour__title-gray {
   color: #242424;
   font-weight: 400;
@@ -736,6 +767,11 @@ a {
 .card-tour__label-info--bg-violet {
   background-color: #f2e5fa;
 }
+@media (max-width: 767px) {
+  .card-tour__label-info--bg-violet {
+    display: none;
+  }
+}
 .card-tour__label-info--tablet {
   display: none;
 }
@@ -756,6 +792,12 @@ a {
 @media (max-width: 1439px) {
   .card-tour__text {
     margin: 0 0 35px;
+  }
+}
+@media (max-width: 767px) {
+  .card-tour__text {
+    font-size: 13px;
+    line-height: 16px;
   }
 }
 @media (max-width: 1439px) {
@@ -797,6 +839,12 @@ a {
 .card-tour__price-text {
   font-size: 14px;
   line-height: 18px;
+}
+@media (max-width: 767px) {
+  .card-tour__price-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 .card-tour__btns-wrap {
   display: flex;
