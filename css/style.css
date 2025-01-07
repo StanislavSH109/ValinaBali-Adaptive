@@ -420,6 +420,12 @@ a {
   width: 140px;
   height: 40px;
 }
+@media (max-width: 767px) {
+  .header__logo-icon {
+    width: 111px;
+    height: 32px;
+  }
+}
 .header__btn-wrapper {
   display: flex;
   gap: 20px;
