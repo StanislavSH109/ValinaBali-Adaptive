@@ -491,6 +491,11 @@ a {
   background-color: #000000;
   padding: 40px 0;
 }
+@media (max-width: 767px) {
+  .footer {
+    padding: 30px 0;
+  }
+}
 .footer__content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -516,6 +521,12 @@ a {
   width: 140px;
   height: 40px;
 }
+@media (max-width: 767px) {
+  .footer__logo-link svg {
+    width: 111px;
+    height: 32px;
+  }
+}
 .footer__info {
   display: flex;
   flex-direction: column;
@@ -528,6 +539,12 @@ a {
   font-weight: 700;
   line-height: 36px;
   letter-spacing: -0.02em;
+}
+@media (max-width: 767px) {
+  .footer__info-tel {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 .footer__info-description {
   color: rgba(255, 255, 255, 0.5);
@@ -599,6 +616,12 @@ a {
   border-radius: 50%;
   border: 1px solid rgba(158, 95, 196, 0.5);
   color: #9e5fc4;
+}
+@media (max-width: 767px) {
+  .social__link {
+    width: 40px;
+    height: 40px;
+  }
 }
 .social__link-icon {
   width: 18px;
@@ -1064,6 +1087,13 @@ a {
     padding: 20px;
   }
 }
+@media (max-width: 767px) {
+  .review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 .review-card__wrap {
   display: flex;
   gap: 21px;
@@ -1087,6 +1117,13 @@ a {
   flex-wrap: wrap;
   align-items: center;
   gap: 15px;
+}
+@media (max-width: 767px) {
+  .review-card__description {
+    flex-direction: column;
+    align-items: unset;
+    gap: 5px;
+  }
 }
 .review-card__name {
   color: rgba(255, 255, 255, 0.5);
@@ -1115,4 +1152,9 @@ a {
   height: 100px;
   flex-shrink: 0;
   border-radius: 200px;
+}
+@media (max-width: 767px) {
+  .review-card__picture {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
