@@ -17,6 +17,7 @@
 
       @include vp-767 {
         flex-direction: column;
+        gap: 20px;
       }
     }
   }
@@ -28,11 +29,19 @@
     @include vp-1439 {
       height: 200px;
     }
+
+    @include vp-767 {
+      height: 160px;
+    }
   }
 
   &__img--flat {
     @include vp-1439 {
       height: 240px;
+    }
+
+    @include vp-767 {
+      height: 160px;
     }
   }
 
@@ -136,6 +145,10 @@
     @include vp-1439 {
       margin: 0 0 47px;
     }
+
+    @include vp-767 {
+      margin: 0 0 20px;
+    }
   }
 
   &__content-bottom {
@@ -171,7 +184,7 @@
     flex-shrink: 0;
 
     @include vp-767 {
-      
+
     }
   }
 
