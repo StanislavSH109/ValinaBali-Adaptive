@@ -548,6 +548,11 @@ a {
     width: 245px;
   }
 }
+@media (max-width: 767px) {
+  .btn {
+    width: 240px;
+  }
+}
 .btn--bg-lilac {
   background-color: #9e5fc4;
   border: none;
