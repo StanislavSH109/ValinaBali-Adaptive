@@ -504,6 +504,14 @@ a {
     align-items: flex-start;
   }
 }
+@media (max-width: 767px) {
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .footer__logo-link svg {
   width: 140px;
   height: 40px;
@@ -913,6 +921,7 @@ a {
   .best-tours__title {
     font-size: 28px;
     line-height: 32px;
+    margin: 0 0 20px;
   }
 }
 .best-tours__list {
@@ -998,6 +1007,12 @@ a {
   .best-tour-card__name {
     font-size: 24px;
     line-height: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .best-tour-card__name {
+    font-size: 22px;
+    line-height: 24px;
   }
 }
 .best-tour-card__text {
