@@ -817,6 +817,11 @@ a {
   align-items: center;
   gap: 4px;
 }
+@media (max-width: 767px) {
+  .card-tour__label-info {
+    gap: 2px;
+  }
+}
 .card-tour__label-info--bg-violet {
   background-color: #f2e5fa;
 }
@@ -899,6 +904,11 @@ a {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+@media (max-width: 767px) {
+  .card-tour__price {
+    gap: 2px;
+  }
 }
 .card-tour__price-icon {
   width: 22px;
