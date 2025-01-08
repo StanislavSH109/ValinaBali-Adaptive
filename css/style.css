@@ -729,6 +729,11 @@ a {
     min-height: unset;
   }
 }
+@media (max-width: 767px) {
+  .card-tour {
+    min-height: 453px;
+  }
+}
 .card-tour--flat .card-tour__content-bottom {
   flex-direction: row;
 }
@@ -771,6 +776,12 @@ a {
 @media (max-width: 1439px) {
   .card-tour__content {
     padding: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .card-tour__content {
+    justify-content: flex-end;
+    flex-grow: 1;
   }
 }
 .card-tour__content-top {
