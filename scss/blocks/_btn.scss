@@ -29,6 +29,10 @@
 
   &--size-small {
     width: 154px;
+
+    @include vp-767 {
+      width: 163px;
+    }
   }
 
   &--icon {
