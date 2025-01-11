@@ -11,7 +11,21 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
+  transition: .2s ease-out;
   cursor: pointer;
+  
+  &:hover {
+    background-color: $color-deep-lilac;
+    color: $color-white;
+    transition: .2s ease-in;
+  }
+
+  &:focus {
+    background-color: $color-deep-lilac;
+    color: $color-white;
+    transition: .2s ease-in;
+    outline: none;
+  }
 
   @include vp-1439 {
     width: 245px;

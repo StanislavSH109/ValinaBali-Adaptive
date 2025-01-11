@@ -58,6 +58,17 @@
     }
   }
 
+  &__info-tel:hover {
+    transition: .2s ease-in;
+    color: $color-deep-lilac;
+  }
+
+  &__info-tel:focus {
+    transition: .2s ease-in;
+    color: $color-deep-lilac;
+    outline: none;
+  }
+
   &__info-description {
     color: $color-white-50;
     font-size: 14px;
