@@ -619,6 +619,9 @@ a {
   background-color: transparent;
   border: none;
 }
+.btn--icon:hover {
+  background-color: transparent;
+}
 .btn--icon svg {
   width: 22px;
   height: 20px;

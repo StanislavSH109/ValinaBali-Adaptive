@@ -55,6 +55,10 @@
     padding: 0;
     background-color: transparent;
     border: none;
+
+    &:hover {
+      background-color: transparent;
+    }
   }
 
   &--icon {
